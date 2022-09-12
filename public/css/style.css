@@ -1,0 +1,287 @@
+nav {
+    background-color: #F7F7F7;
+}
+
+.navbar-brand img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.download-cv {
+    background-color: #48848D;
+    color: #F7F7F7;
+    position: relative;
+    left: 350px;
+}
+
+.download-cv:hover {
+    background-color: #48848D;
+    color: #F7F7F7;
+
+}
+
+.navbar-nav {
+    margin-left: 10px;
+}
+
+
+.nav-link {
+    color: #707070;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-right: 50px;
+}
+
+
+
+
+/* body */
+.whole-body {
+    background-color: #F7F7F7;
+}
+
+.first-section {
+    margin-top: 40px;
+}
+
+.name {
+    color: #48848D;
+}
+
+.home-title p {
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.side-image {
+    margin-left: 200px;
+    position: relative;
+    bottom: 50px;
+    object-fit: contain;
+}
+
+.post {
+    text-align: center;
+    margin-top: 30px;
+    color: #48848D;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#my-email {
+    color: #48848D;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* service section */
+.service-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #48848D;
+
+}
+
+.underline {
+    width: 140px;
+    border-bottom: 4px solid #48848D;
+}
+
+.service-info {
+    margin-top: 20px;
+}
+
+.icon-cricle {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #48848D;
+    /* For now you can actually use
+     * plain border-radius
+     *
+     * -moz-border-radius: 20px;
+     * -webkit-border-radius: 20px;
+     */
+    border-radius: 200px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.icon-cricle img {
+    height: 110px;
+    object-fit: contain;
+    margin-top: 40px;
+}
+
+
+#service-title {
+    margin-top: 60px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* latest work */
+.latest-work {
+    position: relative;
+    top: 100px;
+    background-color: #ffff;
+}
+
+.title-work {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #48848D;
+}
+
+.work-underline {
+    width: 240px;
+    border-bottom: 4px solid #48848D;
+}
+
+.owl-carousel {
+    margin-top: 30px;
+}
+
+
+/* what client say */
+.client-section {
+    position: relative;
+    top: 130px;
+    min-height: 80vh;
+    background-color: #F7F7F7;
+}
+
+.client-head-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #48848D;
+    text-align: center;
+}
+
+.owl-carousel .owl-item .card .card-body img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: auto;
+    object-fit: contain;
+    margin-right: auto;
+}
+
+.client-title {
+    text-align: center;
+    color: #48848D;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.client-description {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* footer */
+footer {
+    position: relative;
+    top: 130px;
+    background-color: #F7F7F7;
+}
+
+.footer-title h3 {
+    font-size: 2.5rem;
+    color: #48848D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.footer-title p {
+    font-size: 1.3rem;
+    color: #48848D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.footer-title .span-footer {
+    font-size: 1.3rem;
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.other-link-title {
+    font-size: 1.3rem;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.link ul li a {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.footer-nav-link {
+    margin-top: 10px;
+}
+
+.footer-nav-link :hover {
+    color: #48848D;
+}
+
+.copyright{
+    position: relative;
+    top: 10px;
+}
+.footer-logo {
+    height: 70px;
+    object-fit: contain;
+}
+.copyright-info{
+   text-align: center;
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        margin-top: 15px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+}
+.design-info {
+    float: right;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+}
+.design-name{
+    color: #48848D;
+}
