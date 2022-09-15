@@ -11,7 +11,7 @@ nav {
     background-color: #48848D;
     color: #F7F7F7;
     position: relative;
-    left: 350px;
+    left: 200px
 }
 
 .download-cv:hover {
@@ -73,11 +73,16 @@ nav {
 }
 
 #my-email {
-    color: #48848D;
+
     font-size: 1.3rem;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+
+}
+#my-email a{
+text-decoration: none;
+   color: #48848D;
 }
 
 /* service section */
@@ -153,11 +158,16 @@ nav {
     margin-top: 30px;
 }
 
+.owl-carousel .item .work-img {
+    height: 320px;
+    object-fit: contain;
+}
+
 
 /* what client say */
 .client-section {
     position: relative;
-    top: 130px;
+    top: 170px;
     min-height: 80vh;
     background-color: #F7F7F7;
 }
@@ -189,16 +199,17 @@ nav {
 }
 
 .client-description {
+    overflow: hidden;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Quicksand', sans-serif;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+
 }
 
 
@@ -254,24 +265,27 @@ footer {
     color: #48848D;
 }
 
-.copyright{
+.copyright {
     position: relative;
     top: 10px;
 }
+
 .footer-logo {
     height: 70px;
     object-fit: contain;
 }
-.copyright-info{
-   text-align: center;
-        font-size: 1.2rem;
-        text-align: center;
-        text-decoration: none;
-        color: #000000;
-        margin-top: 15px;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 600;
+
+.copyright-info {
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 }
+
 .design-info {
     float: right;
     font-size: 1.2rem;
@@ -282,6 +296,106 @@ footer {
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
 }
-.design-name{
+
+.design-name {
     color: #48848D;
+}
+
+/* contact section */
+.contact-section {
+    position: relative;
+    top: 130px;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #48848D;
+}
+
+.underline-contact {
+    width: 220px;
+    border-bottom: 4px solid #48848D;
+}
+
+.contact-info {
+    position: relative;
+    top: 10px;
+}
+
+.contact-info p a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+    line-height: 20px;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+
+.contact-icon {
+    height: 30px;
+    object-fit: contain;
+}
+
+#contact-sector {
+    margin-left: 10px;
+}
+
+.map {
+    margin-top: 10px;
+    width: 400px;
+    height: 240px;
+}
+
+.btn-submit {
+    float: right;
+    background-color: #48848D;
+    color: #F7F7F7;
+}
+
+form {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+form .form-group {
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    float: right;
+    background-color: #48848D;
+    color: #F7F7F7;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+
+/* work details */
+.work-details {
+    position: relative;
+    top: 50px;
+    background-color: #ffff;
+}
+
+#project-title {
+    font-size: 1.3rem;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+}
+
+.details-img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+#main #container figure>img {
+    font-size: 20px;
+    color: #07c;
+    height: 100px;
+    width: 40%;
 }
