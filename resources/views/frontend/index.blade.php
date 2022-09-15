@@ -90,6 +90,83 @@
             </div>
         </div>
     </section>
+    
+      {{-- Contact Us --}}
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-title">
+                Contact Me
+            </div>
+            <div class="underline-contact"></div>
+            <div class="row">
+              
+                    <div class="col">
+                        <div class="contact-info">
+
+                             <p><img src="{{ asset('img') }}/uiux" class="contact-icon"
+                                    alt="contact icon"><a href=""
+                                    id="contact-sector">Kushma, Nepal Pang Parbat</a></p>
+
+                             <p><img src="{{ asset('img') }}/uiux" class="contact-icon"
+                                    alt="contact icon"><a href=""
+                                    id="contact-sector">9867826013, 9806715231</a></p>
+
+                            <p><img src="{{ asset('img') }}/uiux" class="contact-icon"
+                                    alt="contact icon"><a href=""
+                                    id="contact-sector">rabbinsubedi@gmail.com</a></p>
+
+                            <p><img src="{{ asset('img') }}/uiux" class="contact-icon"
+                                    alt="contact icon"><a href=""
+                                    id="contact-sector">RabinSubedi</a></p>
+
+
+                        </div>
+
+                        <iframe class="map" src="https://maps.google.com/maps?q=nepal%20agro%20yantra&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"></iframe>
+                    </div>
+         
+
+                <div class="col">
+                    @if (session('status'))
+                        <h4 class="alert alert-success">{{ session('status') }}</h4>
+                    @endif
+                    <form action="{{ url('add-contact') }}" method="post">
+                        @csrf
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" required
+                                placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Email</label>
+                            <input type="email" class="form-control" name="email" required
+                                placeholder="Enter your email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Phone</label>
+                            <input type="number" class="form-control" min="1" name="phone" required
+                                placeholder="Enter your number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea name="message" class="form-control" required></textarea>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button class="btn btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
 
     {{-- what client say --}}
     <section class="client-section">
